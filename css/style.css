@@ -131,8 +131,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #8eb640;
-	border-color: #8eb640;
+	background-color: Gold;
+	border-color: Gold;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -170,7 +170,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: Black;
 	background-color: Gold;
 }
-/* Header Section */
+/* Header Section
 .intro {
 	display: table;
 	width: 100%;
@@ -181,6 +181,30 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}*/
+.intro {
+/* Ubicacion de la imagen */
+  background-image: url(../img/intro-bg.gif);
+
+  /* La imagen está centrada vertical y horizontalmente en todo momento */
+  background-position: center center;
+
+  /* La imagen no se repite */
+  background-repeat: no-repeat;
+
+  /* Hace que la imagen se fije en la ventana gráfica para
+    que no se mueva cuando la altura del contenido es mayor que la altura de la imagen */
+  
+
+  /* Esto es lo que hace que la imagen de fondo cambie de escala en función del tamaño de su contenedor */
+  background-size: cover;
+
+  /* Elija un color de fondo sólido que se mostrará mientras la imagen de fondo se está cargando */
+  background-color:#464646;
+
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.4);
