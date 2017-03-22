@@ -194,7 +194,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
   /* Hace que la imagen se fije en la ventana gráfica para
     que no se mueva cuando la altura del contenido es mayor que la altura de la imagen */
-  
+
 
   /* Esto es lo que hace que la imagen de fondo cambie de escala en función del tamaño de su contenedor */
   background-size: cover;
@@ -232,6 +232,9 @@ header .intro-text {
 	padding-top: 250px;
 	padding-bottom: 200px;
 	text-align: center;
+}
+.img-responsive {
+	display: initial;
 }
 /* About Section */
 #about {
