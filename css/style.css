@@ -391,7 +391,26 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Team Section */
+
+/* Dia a dia */
+
+#portfolio2 {
+	padding: 0 0 120px 0;
+}
+#portfolio2 .section-title {
+	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+#portfolio2 .section-title h2 {
+	color: #fff;
+}
+
+#diaADia h2:hover{
+	color:gold;
+}
+
+/* Equipos */
 #team {
 	color: #fff;
 	background: #444 url(../img/equipo-bg.jpg) center top no-repeat fixed;
